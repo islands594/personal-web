@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Islands594</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-brand">Islands594</div>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="nav-links">
+        <a href="#home" class="nav-link">首页</a>
+        <a href="#resume" class="nav-link">简历</a>
+        <a href="#projects" class="nav-link">项目</a>
+        <a href="#photography" class="nav-link">摄影</a>
+      </div>
+    </nav>
+
+    <section id="home" class="hero">
+      <div id="particles-js"></div>
+      <div class="hero-content">
+        <h1 class="animated-text">Hi, I'm Weihao Liang</h1>
+        <p class="subtitle">A New Full Stack Engineer</p>
+        <div class="scroll-indicator">
+          <span>向下滚动</span>
+          <div class="scroll-arrow"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="resume-section">
+      <div class="container">
+        <h2 class="section-title">个人简历</h2>
+        <div class="resume-grid">
+          <div class="profile-card">
+            <div class="profile-image">
+              <img src="images/zhengjianzhao.jpg" alt="梁炜豪的照片" />
+            </div>
+            <div class="profile-info">
+              <p class="job-title">全栈开发工程师</p>
+
+              <div class="personal-details">
+                <div class="detail-item">
+                  <span class="detail-label">年龄</span>
+                  <span class="detail-value">25岁</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">学历</span>
+                  <span class="detail-value">本科</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">所在地</span>
+                  <span class="detail-value">浙江·杭州</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">邮箱</span>
+                  <span class="detail-value">1076592397@qq.com</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">手机</span>
+                  <span class="detail-value">15925698571</span>
+                </div>
+              </div>
+
+              <div class="social-links">
+                <a href="https://github.com/islands594" target="_blank"
+                  >GitHub</a
+                >
+                <a href="https://www.zhihu.com/people/fou-ji-18" target="_blank"
+                  >知乎</a
+                >
+                <a
+                  href="https://space.bilibili.com/30804990?spm_id_from=333.1007.0.0"
+                  target="_blank"
+                  >B站</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-card">
+            <h3>技术栈</h3>
+            <div class="skill-bars">
+              <div class="skill-item">
+                <span class="skill-name">JavaScript</span>
+                <div class="progress-bar">
+                  <div class="progress" data-percent="90"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">React / Vue</span>
+                <div class="progress-bar">
+                  <div class="progress" data-percent="75"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Node.js / Python</span>
+                <div class="progress-bar">
+                  <div class="progress" data-percent="90"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">MySQL</span>
+                <div class="progress-bar">
+                  <div class="progress" data-percent="80"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <h2 class="section-title">项目经验</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <!-- 暂时注释掉项目图片，直到有实际项目图片 -->
+              <!-- <img src="assets/project1.jpg" alt="项目1" /> -->
+              <div class="project-placeholder"></div>
+              <!-- 添加占位符 -->
+            </div>
+            <div class="project-info">
+              <h3>电商平台开发</h3>
+              <p>使用 React + Node.js 开发的全栈电商平台</p>
+              <div class="project-tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+              </div>
+            </div>
+          </div>
+          <!-- 更多项目卡片 -->
+        </div>
+      </div>
+    </section>
+
+    <section id="photography" class="photography-section">
+      <div class="container">
+        <h2 class="section-title">摄影作品</h2>
+        <div class="photo-categories">
+          <button class="category-btn active" data-category="all">全部</button>
+          <button class="category-btn" data-category="landscape">风景</button>
+          <button class="category-btn" data-category="portrait">人物</button>
+          <button class="category-btn" data-category="still">静物</button>
+        </div>
+
+        <div class="photo-grid">
+          <!-- 风景照片 -->
+          <div class="photo-item" data-category="landscape">
+            <img src="images/landscape/1.jpg" alt="风景照片" />
+            <div class="photo-overlay">
+              <h3>茶山翠景</h3>
+              <p>2024年 · 绍兴新昌</p>
+            </div>
+          </div>
+
+          <div class="photo-item" data-category="landscape">
+            <img src="images/landscape/2.jpg" alt="风景照片" />
+            <div class="photo-overlay">
+              <h3>古寺幽径</h3>
+              <p>2024年 · 杭州余杭</p>
+            </div>
+          </div>
+
+          <div class="photo-item" data-category="landscape">
+            <img src="images/landscape/3.jpg" alt="风景照片" />
+            <div class="photo-overlay">
+              <h3>京杭运河</h3>
+              <p>2024年 · 杭州</p>
+            </div>
+          </div>
+
+          <div class="photo-item" data-category="landscape">
+            <img src="images/landscape/4.jpg" alt="风景照片" />
+            <div class="photo-overlay">
+              <h3>蓝天云海</h3>
+              <p>2024年 · 绍兴</p>
+            </div>
+          </div>
+
+          <div class="photo-item" data-category="landscape">
+            <img src="images/landscape/5.jpg" alt="风景照片" />
+            <div class="photo-overlay">
+              <h3>都市绿影</h3>
+              <p>2024年 · 杭州吴山</p>
+            </div>
+          </div>
+
+          <!-- 人物照片 -->
+          <div class="photo-item" data-category="portrait">
+            <img src="images/portrait/1.jpg" alt="人物照片" />
+            <div class="photo-overlay">
+              <h3>老人与车</h3>
+              <p>2024年 · 杭州</p>
+            </div>
+          </div>
+
+          <div class="photo-item" data-category="portrait">
+            <img src="images/portrait/2.jpg" alt="人物照片" />
+            <div class="photo-overlay">
+              <h3>一瞥</h3>
+              <p>2024年 · 金华义乌</p>
+            </div>
+          </div>
+
+          <div class="photo-item" data-category="portrait">
+            <img src="images/portrait/3.jpg" alt="人物照片" />
+            <div class="photo-overlay">
+              <h3>庆春一角</h3>
+              <p>2024年 · 杭州</p>
+            </div>
+          </div>
+
+          <div class="photo-item" data-category="portrait">
+            <img src="images/portrait/4.jpg" alt="人物照片" />
+            <div class="photo-overlay">
+              <h3>街头随拍</h3>
+              <p>2024年 · 杭州</p>
+            </div>
+          </div>
+
+          <!-- 静物照片 -->
+          <div class="photo-item" data-category="still">
+            <img src="images/still/1.jpg" alt="静物照片" />
+            <div class="photo-overlay">
+              <h3>窗映春景</h3>
+              <p>2024年 · 绍兴</p>
+            </div>
+          </div>
+
+          <div class="photo-item" data-category="still">
+            <img src="images/still/2.jpg" alt="静物照片" />
+            <div class="photo-overlay">
+              <h3>框景自然</h3>
+              <p>2024年 · 杭州</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 添加照片查看器 -->
+        <div class="photo-viewer">
+          <div class="viewer-overlay"></div>
+          <div class="viewer-content">
+            <button class="viewer-close">&times;</button>
+            <div class="viewer-image">
+              <img src="" alt="大图预览" />
+            </div>
+            <div class="viewer-info">
+              <h3></h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2 class="section-title">联系我</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fab fa-weixin"></i>
+              </div>
+              <h3>微信</h3>
+              <p>Islands594</p>
+              <div class="qr-code">
+                <img src="images/wx.jpg" alt="微信二维码" />
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <h3>给我留言</h3>
+            <form id="messageForm">
+              <div class="form-group">
+                <input type="text" placeholder="您的称呼" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="您的邮箱" required />
+              </div>
+              <div class="form-group">
+                <textarea placeholder="请输入留言内容..." required></textarea>
+              </div>
+              <button type="submit" class="submit-btn">发送消息</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="animated-bg"></div>
+    </section>
+
+    <!-- 添加页面底部动态背景 -->
+    <div class="dynamic-footer">
+      <div class="wave-container">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+      </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/your-code.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
